@@ -1,0 +1,16 @@
+/* App.css */
+
+
+
+/* Existing styles */
+
+body {
+  /* Set background image */
+  background-image: url('https://static2.bigstockphoto.com/3/8/1/large1500/183670441.jpg');
+  /* Set background size to cover the entire viewport */
+  background-size: cover;
+  /* Set background repeat to no-repeat */
+  background-repeat: no-repeat;
+}
+
+/* Existing styles */

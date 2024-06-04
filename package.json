@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "name": "pizzass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend":"cd client && npm start",
+    "backend":"cd server && npm start",
+    "dev":"concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
